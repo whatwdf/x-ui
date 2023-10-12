@@ -103,7 +103,7 @@ config_after_install() {
             local portTemp=8888
             /usr/local/x-ui/x-ui setting -username ${usernameTemp} -password ${passwordTemp}
             /usr/local/x-ui/x-ui setting -port ${portTemp}
-            echo -e "检测到您属于全新安装,出于安全考虑已自动为您生成随机用户与端口:"
+            echo -e "安装成功:"
             echo -e "###############################################"
             echo -e "${green}面板登录用户名:${usernameTemp}${plain}"
             echo -e "${green}面板登录用户密码:${passwordTemp}${plain}"
