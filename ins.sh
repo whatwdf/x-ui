@@ -99,8 +99,8 @@ config_after_install() {
         # echo -e "${red}已取消设定...${plain}"
         if [[ ! -f "/etc/x-ui/x-ui.db" ]]; then
             local usernameTemp=admin
-            local passwordTemp=tk6666
-            local portTemp=8888
+            local passwordTemp=666666
+            local portTemp=9000
             /usr/local/x-ui/x-ui setting -username ${usernameTemp} -password ${passwordTemp}
             /usr/local/x-ui/x-ui setting -port ${portTemp}
             echo -e "安装成功:"
